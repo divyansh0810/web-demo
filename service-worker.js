@@ -3,8 +3,7 @@ const urlsToCache = [
 "/",
 "/index.html",
 "/styles.css",
-"/app.js",
-"/logo.png"
+"/app.js"
 ];
 // Install event: Caches the assets
 self.addEventListener("install", (event) => {
